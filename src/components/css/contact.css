@@ -1,0 +1,126 @@
+.contact-container {
+    /* background-image: url('https://wallpapers.com/images/hd/horizon-full-screen-hd-desktop-nsw7v8luhapdp6gs.jpg'); */
+    background-image: url('../img/contact\ us\ page\ img\ 1.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 80vh;
+    /* Full screen height */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #200F0099;
+    z-index: 1;
+}
+
+.contact-container * {
+    position: relative;
+    z-index: 2;
+    /* Ensures the content is above the overlay */
+}
+
+.contact-container img {
+    width: 100%;
+    height: 70vh;
+}
+.contact-cards {
+    /* Avoid fixed widths to maintain responsiveness */
+    width: 100%;
+}
+
+.contact-cards .card-title {
+    font-family: Biryani;
+    font-size: 24px;
+    font-weight: 700;
+    /* line-height: 89px; */
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3A1907;
+}
+
+.contact-cards .card-text {
+    font-family: Biryani;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 27px; */
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.contact-content {
+    margin-top: 2rem;
+    max-width: 800px;
+    width: 800px;
+}
+
+.contact-content h1 {
+    font-family: Biryani;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+
+.contact-cards img {
+    height: 72px;
+    width: 72px;
+    align-items: center;
+    float: calc(center);
+
+}
+
+.contact-cards {
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    border-radius: 0 !important;
+
+}
+
+
+.adrees-contact-cards {
+    padding: 3rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+.online-container-contact h2 {
+    font-family: Biryani;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.submit-btn-contact {
+    background-color: rgba(58, 25, 7, 1)!important;
+    color: white;
+    border-radius: 0 !important;
+}

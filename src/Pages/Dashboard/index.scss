@@ -1,0 +1,80 @@
+@import '../../styles/variables.scss';
+
+.dashboard {
+  &__header {
+    margin-bottom: var(--spacing-xl);
+  }
+  
+  &__title {
+    color: var(--gray-800);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  &__subtitle {
+    color: var(--gray-600);
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+  
+  &__search {
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  &__table-container {
+    background: white;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  &__table {
+    margin-bottom: 0;
+    
+    thead {
+      background-color: var(--gray-800);
+      color: white;
+      
+      th {
+        border-color: var(--gray-700);
+        font-weight: 600;
+        padding: var(--spacing-md);
+      }
+    }
+    
+    tbody {
+      tr {
+        &:hover {
+          background-color: var(--gray-100);
+        }
+      }
+      
+      td {
+        padding: var(--spacing-md);
+        vertical-align: middle;
+      }
+    }
+  }
+  
+  &__description {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  &__pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--spacing-lg);
+  }
+  
+  &__error {
+    text-align: center;
+    color: var(--error-color);
+    font-size: 1.1rem;
+    padding: var(--spacing-xl);
+  }
+}

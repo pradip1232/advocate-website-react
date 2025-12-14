@@ -1,0 +1,108 @@
+.expertise-section-container {
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+.hero-section-expertise {
+    background-image: url('../img/Group\ 7.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 70vh;
+    /* Full screen height */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+
+}
+
+
+.hero-section-expertise::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #200F0099;
+    z-index: 1;
+}
+
+.hero-section-expertise * {
+    position: relative;
+    z-index: 2;
+    /* Ensures the content is above the overlay */
+}
+
+.hero-content {
+    width: 800px;
+}
+
+.expertise-cards-section .card-title {
+    font-family: Biryani;
+    font-size: 16px;
+    font-weight: 800;
+    /* line-height: 89px; */
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #3A1907;
+}
+
+.law-card {
+    margin-bottom: 7rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.law-card:hover {
+    /* transform: scale(1.05); */
+}
+
+.overlay-content {
+    color: black;
+}
+
+.text-bg {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 10px;
+    border-color: red;
+    /* border-radius: 5px; */
+    margin-bottom: -100px;
+    /* border-bottom: 1px solid #3A1907; Example with size, style, and color */
+    border-bottom: 1px solid rgba(58, 25, 7, 1)
+        /* border-bottom: #3A1907; */
+}
+
+.law-card:hover .overlay-content {
+    /* color: #3A1907; */
+}
+
+.law-card:hover .card-title {
+    color: white;
+}
+
+.law-card:hover .text-bg {
+    background-color: #3A1907;
+    color: white !important;
+}
+
+.law-card:hover .text-bg button {
+    /* background-color:#3A1907; */
+    color: white;
+}
+
+.cardsection-expertise {
+    margin-top: 2.5rem;
+}

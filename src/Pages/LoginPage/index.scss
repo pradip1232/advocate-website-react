@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+
+.login-page {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  min-height: 100vh;
+  
+  &__container {
+    min-height: 100vh;
+  }
+  
+  &__card {
+    border: none;
+    border-radius: var(--border-radius-xl);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  &__title {
+    color: var(--gray-800);
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  &__subtitle {
+    color: var(--gray-600);
+    margin-bottom: 0;
+  }
+  
+  &__submit-btn {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: var(--spacing-md);
+    font-weight: 600;
+    
+    &:hover {
+      background-color: var(--secondary-color);
+      border-color: var(--secondary-color);
+    }
+  }
+}

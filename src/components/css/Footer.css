@@ -1,0 +1,229 @@
+.footer-logo-images {
+    max-width: 150px;
+    width: 147px;
+    height: 147px;
+}
+
+
+
+
+.list-unstyled li {
+    font-family: Biryani;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.footer-top-row h5 {
+    font-family: Biryani;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+.footer-top-row p {
+    font-family: Biryani;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.footer-top-row .main-heading-footer {
+
+    margin-top: 20px;
+    font-family: Biryani;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.social-colmn-footer img {
+    padding: 1.5rem 0;
+}
+
+.footer-last-headhing {
+    font-family: Biryani;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.71px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+
+
+/* Range: 1100px to 1200px */
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .footer-logo-images {
+        max-width: 140px;
+        height: 140px;
+    }
+
+    .list-unstyled li {
+        font-size: 13px;
+    }
+
+    .footer-top-row h5 {
+        font-size: 13px;
+    }
+
+    .footer-top-row p {
+        font-size: 13px;
+    }
+
+    .footer-top-row .main-heading-footer {
+        font-size: 15px;
+    }
+}
+
+/* Range: 900px to 1100px */
+@media (min-width: 900px) and (max-width: 1100px) {
+    .footer-logo-images {
+        max-width: 130px;
+        height: 130px;
+    }
+
+    .list-unstyled li {
+        font-size: 12px;
+    }
+
+    .footer-top-row h5 {
+        font-size: 12px;
+    }
+
+    .footer-top-row p {
+        font-size: 12px;
+    }
+
+    .footer-top-row .main-heading-footer {
+        font-size: 14px;
+    }
+}
+
+/* Range: 700px to 900px */
+@media (min-width: 700px) and (max-width: 900px) {
+    .footer-logo-images {
+        max-width: 120px;
+        height: 120px;
+    }
+
+    .list-unstyled li {
+        font-size: 11px;
+    }
+
+    .footer-top-row h5 {
+        font-size: 11px;
+    }
+
+    .footer-top-row p {
+        font-size: 11px;
+    }
+
+    .footer-top-row .main-heading-footer {
+        font-size: 13px;
+    }
+}
+
+/* Range: 500px to 700px */
+@media (min-width: 500px) and (max-width: 700px) {
+    .footer-logo-images {
+        max-width: 100px;
+        height: 100px;
+    }
+
+    .list-unstyled li {
+        font-size: 10px;
+    }
+
+    .footer-top-row h5 {
+        font-size: 10px;
+    }
+
+    .footer-top-row p {
+        font-size: 10px;
+    }
+
+    .footer-top-row .main-heading-footer {
+        font-size: 12px;
+    }
+}
+
+/* Range: 300px to 500px */
+@media (min-width: 300px) and (max-width: 500px) {
+    .footer-logo-images {
+        max-width: 80px;
+        height: 80px;
+    }
+
+    .list-unstyled li {
+        font-size: 14px;
+        text-align: center;
+    }   
+
+    .footer-top-row h5 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-top-row p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-top-row .main-heading-footer {
+        font-size: 14px;
+    }
+}
+
+/* For screens below 300px */
+@media (max-width: 300px) {
+    .footer-logo-images {
+        max-width: 60px;
+        height: 60px;
+    }
+
+    .list-unstyled li {
+        font-size: 12px;
+    }
+
+    .footer-top-row h5 {
+        font-size: 12px;
+    }
+
+    .footer-top-row p {
+        font-size: 12px;
+    }
+
+    .footer-top-row .main-heading-footer {
+        font-size: 10px;
+    }
+}

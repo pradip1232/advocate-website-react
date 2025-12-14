@@ -1,0 +1,40 @@
+@import '../../styles/variables.scss';
+
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  
+  &__content {
+    max-width: 500px;
+    padding: var(--spacing-xl);
+  }
+  
+  &__title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--gray-800);
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  &__message {
+    font-size: 1.1rem;
+    color: var(--gray-600);
+    margin-bottom: var(--spacing-xl);
+    line-height: 1.6;
+  }
+  
+  &__home-btn {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: var(--spacing-md) var(--spacing-xl);
+    font-weight: 600;
+    
+    &:hover {
+      background-color: var(--secondary-color);
+      border-color: var(--secondary-color);
+    }
+  }
+}

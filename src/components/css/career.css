@@ -1,0 +1,363 @@
+.career-section {
+
+    /* background-image: url('https://wallpapers.com/images/hd/horizon-full-screen-hd-desktop-nsw7v8luhapdp6gs.jpg'); */
+    background-image: url('../img/career\ img\ 1.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 80vh;
+    /* Full screen height */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.career-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #200F0099;
+    z-index: 1;
+}
+
+.career-section * {
+    position: relative;
+    z-index: 2;
+    /* Ensures the content is above the overlay */
+}
+
+
+.career-content {
+    margin-top: 2rem;
+    max-width: 800px;
+    width: 800px;
+}
+
+.career-content h1 {
+    font-family: Biryani;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.firstcolmn-career-pages {
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container-section-career {
+    padding: 5rem 0;
+}
+
+.career-opp-container h2 {
+    font-family: Biryani;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.career-opp-container p {
+    font-family: Biryani;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justified;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.prefessional-growth-career-section {
+    margin-left: 8%;
+}
+
+.career-why-join-heading {
+    font-family: Biryani;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+@media (max-width:768px) {
+    .career-why-join-heading {
+        font-family: Biryani;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+}
+
+
+
+
+
+
+
+.why-card-career {
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    border-radius: 0 !important;
+}
+
+.dots-on-border {
+    position: relative;
+    border: 1px solid #ddd;
+    /* Regular border */
+}
+
+/* Common dot styling */
+.dot {
+    position: absolute;
+    right: -5px;
+    /* Place outside the card on the right */
+    width: 10px;
+    /* Dot size */
+    height: 10px;
+    background-color: #000;
+    /* Dot color */
+    border-radius: 50%;
+    /* Make dots circular */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.dot span {
+    font-family: Biryani;
+    font-size: 24px;
+    font-weight: 400;
+    /* line-height: 89px; */
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 400px;
+    color: rgba(58, 25, 7, 1);
+    cursor: pointer;
+
+
+    position: absolute;
+    top: 0;
+    left: 25px;
+    /* Position text to the right of the dot */
+
+}
+
+/* Dot positions */
+.dot.first {
+    top: 10%;
+    /* First dot */
+}
+
+.dot.second {
+    top: 35%;
+    /* Second dot */
+}
+
+.dot.third {
+    top: 60%;
+    /* Third dot */
+}
+
+.dot.fourth {
+    top: 85%;
+    /* Fourth dot */
+}
+
+
+
+/* Additional dots using pseudo-elements */
+
+.image-container-career {
+    position: relative;
+    /* Enable positioning for child elements */
+    width: 100%;
+    /* Ensure the container takes full width */
+    overflow: hidden;
+    /* Hide overflow if necessary */
+}
+
+.image-container-career img {
+    width: 100%;
+    /* Make the image responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.overlay-text {
+    position: absolute;
+    /* Position over the image */
+    top: 72%;
+    left: 42%;
+    width: 87%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Proper centering */
+    /* text-align: center; */
+    /* Center the text content */
+    z-index: 2;
+    /* Ensure it stays above the image */
+    background-color: white;
+    /* Optional: Add contrast for text */
+    padding: 10px 20px;
+    /* Add some padding for readability */
+    border-radius: 0px;
+    /* Optional: Add rounded corners */
+    color: black !important;
+    /* Ensure text is visible */
+    font-size: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cuerrnt-section {
+    padding: 3rem 0;
+
+}
+
+
+.cuerrnt-section .current-opening-heading {
+    font-family: Biryani;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 44px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.current-opening-row h2 {
+    font-family: Biryani;
+    font-size: 24px;
+    font-weight: 700;
+    /* line-height: 89px; */
+    text-transform: uppercase;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: rgba(58, 25, 7, 1);
+}
+
+
+.current-opening-row ul li {
+    font-family: Biryani;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+.law-firm-with-girl-career {
+    height: 23rem;
+    width: 26rem;
+    max-width: 26rem;
+}
+
+
+.intership-container-apply {
+    padding: 3rem 0;
+}
+
+.intership-container-apply h2 {
+    font-family: Biryani;
+    font-size: 24px;
+    font-weight: 700;
+    /* line-height: 89px; */
+    text-transform: uppercase;
+    text-align: left;
+    text-transform: uppercase;
+
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(58, 25, 7, 1);
+}
+
+
+
+.intership-container-apply p {
+    font-family: Biryani;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justified;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+
+.join-container-section {
+    padding: 3rem 0;
+}
+
+
+.join-container-section h2 {
+    font-family: Biryani;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+
+.join-container-section p {
+    font-family: Biryani;
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}

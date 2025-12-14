@@ -1,0 +1,170 @@
+.icon-social-home-two {
+  height: 94px;
+  width: 94px;
+}
+
+.about-sec-text h2 {
+  font-family: Biryani;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.about-sec-text p {
+  font-family: Biryani;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.71px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.about-pages-text-cont {
+  padding: 3rem 0;
+}
+
+.about-pages-text-cont h6 {
+  font-family: Biryani;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: black;
+  padding: 10px 0px;
+}
+
+.about-section-with-images {
+  padding: 0 !important;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* position: absolute; */
+  /* border-radius: 10px; */
+}
+
+.about-sec-text {
+  /* position: absolute; */
+}
+
+.about-sec {
+  height: 100%;
+  /* Ensures proper layout */
+}
+
+.about-img {
+  object-fit: cover;
+  height: 100%;
+  /* Ensure image covers the entire area */
+}
+
+.about-sec-text {
+  max-width: 800px;
+  /* Limit text width */
+  /* background: rgba(0, 0, 0, 0.5); */
+  /* Add a semi-transparent background */
+  border-radius: 10px;
+  /* Smooth edges */
+}
+
+.mission-vision-about-images {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.custom-navbar-tab {
+  /* background-color: #f7f7f7; */
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.tabvar-button-about {
+  font-family: Biryani !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: 44px !important;
+  text-align: center !important;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3a1907 !important;
+}
+
+.css-1wxkzlj-MuiTabs-flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.css-1gsv261 {
+  border-bottom: none !important;
+}
+
+.core-values-tabs {
+  font-family: "Biryani", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: 26px !important;
+  text-align: center !important;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3a1907;
+}
+
+.tab-navbar-aboutus {
+  font-family: Biryani;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text-about-tab-des {
+  font-family: Biryani;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: black;
+}
+
+.ourteam-heading {
+  font-family: Biryani !important;
+  align-items: center;
+  font-family: Biryani;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.ourfirm-para {
+  font-family: Biryani;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

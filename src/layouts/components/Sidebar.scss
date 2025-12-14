@@ -1,0 +1,63 @@
+@import '../../styles/variables.scss';
+
+.sidebar-toggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+}
+
+.sidebar {
+  width: 250px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  background-color: var(--gray-800);
+  color: white;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  
+  @media (max-width: 991px) {
+    &--closed {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    display: block !important;
+  }
+  
+  &__nav {
+    flex-grow: 1;
+    padding: var(--spacing-lg);
+  }
+  
+  &__footer {
+    padding: var(--spacing-lg);
+    border-top: 1px solid var(--gray-600);
+  }
+  
+  &__nav-item {
+    color: white !important;
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius-md);
+    margin-bottom: var(--spacing-xs);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    
+    &:hover {
+      background-color: var(--gray-700);
+      color: white !important;
+    }
+  }
+  
+  &__nav-icon {
+    margin-right: var(--spacing-sm);
+    font-size: 1.1rem;
+  }
+}

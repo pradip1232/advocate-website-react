@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+
+.topbar {
+  background-color: var(--gray-800) !important;
+  color: white;
+  padding: var(--spacing-md) 0;
+  box-shadow: var(--shadow-sm);
+  
+  &__toggle {
+    border-color: white;
+    color: white;
+    
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+  
+  &__brand {
+    color: white !important;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+  }
+  
+  &__action-btn {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-color: white;
+    }
+  }
+}
